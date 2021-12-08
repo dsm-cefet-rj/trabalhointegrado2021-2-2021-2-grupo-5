@@ -10,7 +10,7 @@ header{
 	font-family: 'Lato', sans-serif;
   }
 
-
+ 
   
 .navbar{
     margin-top: 50px;
@@ -75,6 +75,11 @@ header{
     margin: 0px 0px 0 8px;
     cursor: pointer;
     transition: var(--transition);
+}
+
+.btn a{
+	color: black;
+	text-decoration: none;
 }
 
 .cadastrar{
