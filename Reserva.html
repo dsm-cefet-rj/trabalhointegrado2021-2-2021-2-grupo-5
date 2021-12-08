@@ -22,20 +22,23 @@
     <div class="text-center">
         <img src="img/Quarto.jpg" class="rounded" class="img-fluid" alt="Quarto">
       </div>
-    <div class="mb-3">
-        <label for="checkin" class="form-label">Check in:</label>
-        <input type="date" class="form-control" id="checkin" placeholder="dd-mm-yyyy">
-    </div>
-    <div class="mb-3">
-        <label for="checkout" class="form-label">Check out:</label>
-        <input type="date" class="form-control" id="checkout" placeholder="dd-mm-yyyy">
-    </div>
-    <div class="mb-3">
-        <label for="hospedes" class="form-label">Hóspedes</label>
-        <input type="number" class="form-control" id="hospedes" placeholder="1" min="1" max="5">
-    </div>  
-    <div class="mb-3">
-        <input type="submit" class="text-center" value="Reservar">
-    </div> 
+    <form action="tela_cadastro.html">
+      <div class="mb-3">
+          <label for="checkin" class="form-label">Check in:</label>
+          <input type="date" class="form-control" id="checkin" placeholder="dd-mm-yyyy">
+      </div>
+      <div class="mb-3">
+          <label for="checkout" class="form-label">Check out:</label>
+          <input type="date" class="form-control" id="checkout" placeholder="dd-mm-yyyy">
+      </div>
+      <div class="mb-3">
+          <label for="hospedes" class="form-label">Hóspedes</label>
+          <input type="number" class="form-control" id="hospedes" placeholder="1" min="1" max="5">
+      </div>  
+      <div class="mb-3">
+          <button class="w3-button w3-light-grey" href="tela_cadastro.html">Reservar</button></p>
+          <!--<input type="submit" class="text-center" value="Reservar">-->
+      </div> 
+    </form>
   </body>
 </html>
