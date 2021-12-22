@@ -4,7 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Quarto from "../img/Quarto.jpg"
 
 
-export default function Home () {
+export default function Reserva () {
 
   return (
   <>
