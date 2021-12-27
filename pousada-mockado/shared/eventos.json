@@ -1,0 +1,5 @@
+{
+  "eventos": [{"id": 1, "nome": "Evento X", "inicio": "123","fim":"456"},
+    {"id": 2, "nome": "Evento Y", "inicio": "456","fim":"789"},
+    {"id": 3, "nome": "Evento Z", "inicio": "789","fim":"101112"}]
+}

@@ -5,8 +5,11 @@ import App from './App';
 import Navbar from './components/Navbar/Navbar';
 import Footer from './components/Footer/Footer';
 import reportWebVitals from './reportWebVitals';
+import {Provider, useDispatch} from 'react-redux';
+
 
 ReactDOM.render(
+  <Provider store={store}>
   <React.StrictMode>
     <Navbar/>
     <App />
@@ -14,7 +17,8 @@ ReactDOM.render(
 
   </React.StrictMode>,
   document.getElementById('root')
-);
+
+</Provider>);
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))
